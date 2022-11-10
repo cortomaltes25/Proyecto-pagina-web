@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+/*configurar toda la pagina*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Pathway Gothic One',sans-serif;
+}
+
+/*configuracion de toda la pagina*/
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body html{
+    overflow-x: hidden;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+/*final de la configuracion gral*/
+
+/*inicio del navbar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+}
+
+.navlinks li{
+    margin: 0 30px;
+}
+/*final del navbar*/
+/*inicio del header*/
+.header-content{
+    
+}
