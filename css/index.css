@@ -50,6 +50,86 @@ section{
 }
 /*final del navbar*/
 /*inicio del header*/
-.header-content{
+header{
+    width: 100vw;
+    height: 100vh;
+    position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/background.3.jpg);
     
 }
+
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    color: rgba(0, 0, 255, 0.548);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 610px;
+    margin-bottom: 20px;
+    position: bottom;
+
+}
+
+.boton1{
+    padding: 10px 5px;
+    background: rgba(0, 0, 255, 0.548);
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+/*fianl del header*/
+
+/*segunda parte de la pagina*/
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgba(0, 0, 0, 0.527);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personajes .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color: rgba(0, 0, 255, 0.301);
+    margin: 20px auto;
+}
+
+p{
+    color: #707070;
+    padding: 0px 40px;
+}
+
+.img{
+    height: 450px;
+    width: 500px;
+    padding-left: 100px;
+}
+/*final de la segunda parte de la pagina*/
