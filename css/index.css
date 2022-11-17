@@ -48,6 +48,13 @@ section{
 .navlinks li{
     margin: 0 30px;
 }
+.boton{
+    padding: 10px 5px;
+    background: rgba(0, 0, 255, 0.548);
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
 /*final del navbar*/
 /*inicio del header*/
 header{
@@ -72,7 +79,7 @@ header{
 .line{
     width: 150px;
     height: 4px;
-    color: rgba(0, 0, 255, 0.548);
+    color: whitesmoke;
     margin: 10px auto;
     border-radius: 5px;
 }
@@ -137,7 +144,7 @@ h4{
 /*tercera parte de la pagina*/
 
 .story{
-    width: 100%;
+    width: 150%;
     height: 100vh;
     background-image: url(../imagenes/background.2.jpg);
     background-position: center;
@@ -148,8 +155,8 @@ h4{
 }
 
 .story-content{
-    width: 90px;
-    padding: 95px;
+    width: 100px;
+    padding: 105px;
     color: whitesmoke;
     display:flex;
     align-items: center;
@@ -168,5 +175,68 @@ h4{
 
 .explore-content p{
     color:whitesmoke;
-    padding-left: 500px;
+    padding-left: 700px;
+}
+/*final de la tercera parte*/
+
+/*cuarta parte de la pagina*/
+
+.rogues{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/background.1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    
+}
+
+.content-col{
+    width: 40%;
+}
+
+.rogues .row .col{
+    width: 50%;
+}
+
+div>div>img{
+    height: 250px;
+    width: 450px;
+    padding-left: 150px;
+}
+
+.content-col h1{
+    font-size: 7vmin;
+    color: whitesmoke;
+}
+
+.content-col line{
+    border-left: 50px;
+}
+
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+    color: whitesmoke
+}
+
+.boton2{
+    padding: 15px 5px;
+    padding-left: 5px;
+    margin: 20px auto;
+    background: blue;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+/*final de la cuarta parte*/
+/*footer*/
+.footer{
+    width: 100%;
+    height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #484872;
+    text-align: center;
 }
